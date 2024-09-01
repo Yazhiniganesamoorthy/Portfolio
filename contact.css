@@ -1,0 +1,59 @@
+.contact-section{
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #9cecf2;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
+}
+.contact-info {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the contact info container */
+    padding: 20px; /* Add some padding */
+    background-color: #d2eff0; /* White background for the contact info section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: left;
+    text-size-adjust: 150px;
+}
+
+.contact-info p {
+    margin: 10px 0; /* Margin above and below each paragraph */
+    font-size: 18px; /* Font size for the contact details */
+}
+
+.contact-info strong {
+    display: inline-block;
+    width: 120px; /* Fixed width for labels */
+    font-weight: bold; /* Make the labels bold */
+}
+
+.contact-info a {
+    color: #007BFF; /* Color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+.home .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0008ff; /* Button background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    position: absolute;
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    padding: 10px 20px;
+    
+
+}
+.home .btn:hover {
+    background: #0056b3; /* Darker shade for hover effect */
+}
+
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-image: url('education.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.education-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    background-image: url('https://img.freepik.com/premium-photo/dark-blue-big-blackboard-wooden-table-background-back-school-generative-ai_982005-625.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+.education-details {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+.home .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0008ff; /* Button background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    position: absolute;
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    padding: 10px 20px;
+    
+
+}
+.home .btn:hover {
+    background: #0056b3; /* Darker shade for hover effect */
+}
